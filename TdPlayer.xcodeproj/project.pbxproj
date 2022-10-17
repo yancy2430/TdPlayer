@@ -10,14 +10,15 @@
 		B1090C8B28FC366F00D39EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1090C8A28FC366F00D39EB0 /* AppDelegate.swift */; };
 		B1090C8E28FC367000D39EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1090C8D28FC367000D39EB0 /* Assets.xcassets */; };
 		B1090C9128FC367000D39EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1090C8F28FC367000D39EB0 /* LaunchScreen.storyboard */; };
+		B1090C9828FC441300D39EB0 /* tvml in Resources */ = {isa = PBXBuildFile; fileRef = B1090C9728FC441300D39EB0 /* tvml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1090C8728FC366F00D39EB0 /* TdPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TdPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1090C8A28FC366F00D39EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1090C8C28FC366F00D39EB0 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
 		B1090C8D28FC367000D39EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1090C9028FC367000D39EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1090C9728FC441300D39EB0 /* tvml */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tvml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +35,7 @@
 		B1090C7E28FC366F00D39EB0 = {
 			isa = PBXGroup;
 			children = (
+				B1090C9728FC441300D39EB0 /* tvml */,
 				B1090C8928FC366F00D39EB0 /* TdPlayer */,
 				B1090C8828FC366F00D39EB0 /* Products */,
 			);
@@ -51,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				B1090C8A28FC366F00D39EB0 /* AppDelegate.swift */,
-				B1090C8C28FC366F00D39EB0 /* application.js */,
 				B1090C8D28FC367000D39EB0 /* Assets.xcassets */,
 				B1090C8F28FC367000D39EB0 /* LaunchScreen.storyboard */,
 			);
@@ -118,6 +119,7 @@
 			files = (
 				B1090C8E28FC367000D39EB0 /* Assets.xcassets in Resources */,
 				B1090C9128FC367000D39EB0 /* LaunchScreen.storyboard in Resources */,
+				B1090C9828FC441300D39EB0 /* tvml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +271,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 969QB5YC7P;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TdPlayer;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +296,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 969QB5YC7P;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TdPlayer;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
