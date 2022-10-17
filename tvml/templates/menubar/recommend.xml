@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+    <head>
+        <style>
+        </style>
+    </head>
+    <stackTemplate>
+<!--        <background>-->
+<!--            <img srcset="/resources/images/background/bg_list_uber.jpg (layout-direction:ltr), /resources/images/background/bg_list_uber_rtl.jpg (layout-direction:rtl)" />-->
+<!--        </background>-->
+        <prototypes>
+            <lockup class="tupian" prototype="artwork"
+                    videoURL="http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4">
+                <img style="tv-position:leading" binding="@src:{url};" width="380" height="220"/>
+                <title style="tv-position:leading;text-align:leading;" >
+                    <img src="/resources/images/lockups/square_1.jpg" width="50" height="50" />
+                    <badge style="tv-align:left;tv-position:leading;text-align:leading;border-radius: 25;margin: 10 0;" width="50" height="50" src="/resources/images/lockups/square_1.jpg" >
+                        <text>Button</text>
+                    </badge>
+                </title>
+                <subtitle style="tv-position:leading;text-align:leading;" binding="textContent:{tname};"/>
+                <reviewCard>
+                    <badge src="resource://tomato-fresh-m" />
+                    <title>Publisher</title>
+                    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+                    <text>Stephanie Vidal Dec, 24 2015</text>
+                </reviewCard>
+            </lockup>
+        </prototypes>
+<!--        <section>-->
+<!--            <header>-->
+<!--                <title>Trailers</title>-->
+<!--            </header>-->
+<!--            <lockup > //add link to trailer on your server here-->
+<!--                <imageStack>-->
+<!--                    <img src="/resources/images/lockups/square_1.jpg" /> //add link to preview image for trailer-->
+<!--                </imageStack>-->
+<!--                <title>Theatrical Trailer 2m</title>-->
+<!--            </lockup>-->
+<!--        </section>-->
+        <collectionList>
+            <grid class="4ColumnGrid">
+                <section binding="items:{images};"/>
+            </grid>
+            <separator>
+                <text style="tv-text-style:body; margin: 0 10;">加载中</text>
+            </separator>
+        </collectionList>
+    </stackTemplate>
+</document>

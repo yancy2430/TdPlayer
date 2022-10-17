@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+	<listTemplate>
+		<list>
+			<segmentBarHeader>
+				<title>Title</title>
+				<subtitle>Subtitle</subtitle>
+				<segmentBar>
+					<segmentBarItem numberOfItemsToCreate="3">
+						<title>Title 1</title>
+					</segmentBarItem>
+					<segmentBarItem numberOfItemsToCreate="7">
+						<title>Title 2</title>
+					</segmentBarItem>
+					<segmentBarItem numberOfItemsToCreate="18">
+						<title>Title 3</title>
+					</segmentBarItem>
+				</segmentBar>
+			</segmentBarHeader>
+		</list>
+	</listTemplate>
+</document>

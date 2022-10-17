@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+  <loadingTemplate>
+    <activityIndicator>
+      <title>Loading...</title>
+    </activityIndicator>
+  </loadingTemplate>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+  <menuBarTemplate>
+    <menuBar>
+      <menuItem documentURL="/templates/menubar/recommend.xml">
+        <title>推荐</title>
+      </menuItem>
+      <menuItem documentURL="/templates/menubar/dynamic.xml">
+        <title>动态</title>
+      </menuItem>
+      <menuItem documentURL="/templates/menubar/my.xml">
+        <title>我的</title>
+      </menuItem>
+    </menuBar>
+  </menuBarTemplate>
+</document>

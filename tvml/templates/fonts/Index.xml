@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+  <head>
+    <style>
+      .descriptionLayout {
+        tv-text-max-lines: 8
+      }
+    </style>
+  </head>
+  <listTemplate>
+    <list>
+      <header>
+        <title>Fonts</title>
+      </header>
+      <section>
+        <listItemLockup documentURL="/templates/fonts/TextStyle.xml">
+          <title>tv-text-style</title>
+          <relatedContent>
+            <lockup>
+              <img srcset="/resources/images/screenshots/textStyle_light.jpg (theme:light),/resources/images/screenshots/textStyle_dark.jpg (theme:dark)" width="857" height="482" />
+              <description class="descriptionLayout">Demonstrate the supported tv-text-style values.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/fonts/FontWeight.xml">
+          <title>tv-text-style with font-weight</title>
+          <relatedContent>
+            <lockup>
+              <img srcset="/resources/images/screenshots/fontWeight_light.jpg (theme:light),/resources/images/screenshots/fontWeight_dark.jpg (theme:dark)" width="857" height="482" />
+              <description class="descriptionLayout">Demonstrate the supported font-weight values.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/fonts/FontFamily.xml">
+          <title>font-family</title>
+          <relatedContent>
+            <lockup>
+              <img srcset="/resources/images/screenshots/fontFamily_light.jpg (theme:light),/resources/images/screenshots/fontFamily_dark.jpg (theme:dark)" width="857" height="482" />
+              <description class="descriptionLayout">Demonstrate how to use font-family values.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup documentURL="/templates/fonts/Tags.xml">
+          <title>&lt;b&gt;, &lt;i&gt;, &lt;strike&gt;</title>
+          <relatedContent>
+            <lockup>
+              <img srcset="/resources/images/screenshots/fontTag_light.jpg (theme:light),/resources/images/screenshots/fontTag_dark.jpg (theme:dark)" width="857" height="482" />
+              <description class="descriptionLayout">Demonstrate how to use text style tags.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+      </section>
+    </list>
+  </listTemplate>
+</document>
